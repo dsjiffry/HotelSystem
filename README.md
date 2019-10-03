@@ -1,4 +1,4 @@
-# HotelSystem
+# HotelSystem (Y02)
 
 The objective of the project was to design a Hotel Management System based on the Royal Kandyan
 Hotel requirements. Which we gathered by visiting the location, talking to the staff members and looking at their existing system.
