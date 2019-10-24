@@ -5,6 +5,10 @@
  */
 package hotelsystem;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
 import javax.swing.JFrame;
 
 /**
@@ -25,6 +29,23 @@ public class HotelSystem {
           L.setExtendedState(JFrame.MAXIMIZED_BOTH);
         
        
+        
+    }
+    
+    public static String getProperties(String propertyName)
+    {
+        try
+        {
+            InputStream input = new FileInputStream("src/main/java/hotelsystem/hotelSystem.properties");
+            Properties prop = new Properties();
+            prop.load(input);
+            return prop.getProperty(propertyName);
+        }
+        catch(IOException e)
+        {
+            e.printStackTrace();
+            return "";
+        }
         
     }
     

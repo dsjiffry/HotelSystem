@@ -23,9 +23,9 @@ public class Form_GuestLeaving extends javax.swing.JFrame {
     public Form_GuestLeaving() {
         initComponents();
         
-        String url = "jdbc:mysql://localhost:3306/hotelsystem";
-        String user = "root";
-        String password = "";
+        String url = HotelSystem.getProperties("db.url");
+        String user = HotelSystem.getProperties("db.user");
+        String password = HotelSystem.getProperties("db.password");
 
         String driver = "com.mysql.jdbc.Driver";
         try

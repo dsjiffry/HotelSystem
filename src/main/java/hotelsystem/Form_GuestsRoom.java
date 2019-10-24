@@ -26,10 +26,10 @@ public class Form_GuestsRoom extends javax.swing.JFrame {
     private Connection connection = null;
     private Statement statement = null;
     private ResultSet resultSet = null;
-    private final String url = "jdbc:mysql://localhost:3306/hotelsystem";
-    private final String user = "root";
-    private final String password = "";
-    private final String driver = "com.mysql.jdbc.Driver";
+    private final String url = HotelSystem.getProperties("db.url");
+    private final String user = HotelSystem.getProperties("db.user");
+    private final String password = HotelSystem.getProperties("db.password");
+    private final String driver = HotelSystem.getProperties("db.driver");
     
     private String type;
     public Form_GuestsRoom() {

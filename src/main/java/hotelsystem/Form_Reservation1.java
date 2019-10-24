@@ -36,10 +36,10 @@ public class Form_Reservation1 extends javax.swing.JFrame
     private Statement statement2 = null;
     private ResultSet resultSet = null;
     private ResultSet resultSet2 = null;
-    private final String url = "jdbc:mysql://localhost:3306/hotelsystem";
-    private final String user = "root";
-    private final String password = "";
-    private final String driver = "com.mysql.jdbc.Driver";
+    private final String url = HotelSystem.getProperties("db.url");
+    private final String user = HotelSystem.getProperties("db.user");
+    private final String password = HotelSystem.getProperties("db.password");
+    private final String driver = HotelSystem.getProperties("db.driver");
     
     
     

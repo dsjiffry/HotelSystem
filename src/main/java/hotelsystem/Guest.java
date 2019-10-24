@@ -70,10 +70,10 @@ public class Guest
          Connection connection = null;
          Statement statement = null;
          ResultSet resultSet = null;
-         final String url = "jdbc:mysql://localhost:3306/hotelsystem";
-         final String user = "root";
-         final String password = "";
-         final String driver = "com.mysql.jdbc.Driver";
+        final String url = HotelSystem.getProperties("db.url");
+        final String user = HotelSystem.getProperties("db.user");
+        final String password = HotelSystem.getProperties("db.password");
+        final String driver = HotelSystem.getProperties("db.driver");
          
          try
         {

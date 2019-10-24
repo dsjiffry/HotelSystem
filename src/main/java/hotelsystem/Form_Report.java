@@ -27,14 +27,12 @@ public class Form_Report extends javax.swing.JFrame
     
      private Connection connection = null;
     private Statement statement = null;
-    private Statement statement2 = null;
     private ResultSet resultSet = null;
-    private ResultSet resultSet2 = null;
-    private final String url = "jdbc:mysql://localhost:3306/hotelreports";
-    private final String urlold = "jdbc:mysql://localhost:3306/hotelsystem";
-    private final String user = "root";
-    private final String password = "";
-    private final String driver = "com.mysql.jdbc.Driver";
+    private final String reportUrl = HotelSystem.getProperties("db.reportUrl");
+    private final String url = HotelSystem.getProperties("db.url");
+    private final String user = HotelSystem.getProperties("db.user");
+    private final String password = HotelSystem.getProperties("db.password");
+    private final String driver = HotelSystem.getProperties("db.driver");
     public Form_Report()
     {
         initComponents();
@@ -48,7 +46,7 @@ public class Form_Report extends javax.swing.JFrame
             try
                 {
                     Class.forName(driver);
-                    connection = DriverManager.getConnection(urlold,user,password);
+                    connection = DriverManager.getConnection(url,user,password);
                     statement=connection.createStatement();
 
                     String sql = "SELECT name FROM guest "
@@ -74,7 +72,7 @@ public class Form_Report extends javax.swing.JFrame
         try
         {
             Class.forName(driver);
-            connection = DriverManager.getConnection(url,user,password);
+            connection = DriverManager.getConnection(reportUrl,user,password);
             statement=connection.createStatement();
             
             
