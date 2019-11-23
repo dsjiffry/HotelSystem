@@ -14,3 +14,25 @@ Some of the planned features were:
   * When a guest is checking out they must hand over their keycard to the receptionist and then the receptionist can mark the room for inspection on the system and then once inspected any extra fees may be also added to the final bill.
   
   
+
+## Screenshots
+
+* Login Page
+  
+  ![Login Page](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Login%20Page.PNG?token=AJIMP7Q2VHTEEDT5SQPJQPS53EUQI)
+  
+* Make Reservations
+ 
+ ![Make Reservations](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Make%20Reservation.PNG?token=AJIMP7S33TOTJKGHMRZ2VSC53EUUC)
+ 
+ * View Current Room status
+ 
+ ![Room Status](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Room%20View.PNG?token=AJIMP7VJ2D5SSABBEJBABES53EUUG)
+ 
+* Transfer Guest to different Room
+ 
+ ![Transfer Guest](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Transfer%20Guest.PNG?token=AJIMP7TIZRLCHNYEKBMPLFK53EUUK)
+ 
+ 
+ 
+ 
