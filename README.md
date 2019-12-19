@@ -6,7 +6,7 @@ Hotel requirements. Which we gathered by visiting the location, talking to the s
 Since I was in charge of the Receptionist's part, this repo contains only that section. This system is a standalone Java program with the support of a Database to store all the details.
 
 
-Some of the planned features were:
+Some of the developed features were:
   * Will allow the receptionist to enter the customer’s details at the front desk and assign a room. This will be a simple UI so that the receptionist can easily enter customer’s details without focusing solely on the screen. This will allow the receptionist to also interact with the customer while entering details.
   
   * Allow the receptionist to handle any booking of banquet halls and meeting rooms, the system will keep track of the halls that are booked and the dates on which they are booked making it easier for the receptionist to see the current state of bookings when a customer wishes to make a booking.
