@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/dsjiffry/HotelSystem.svg?token=2Ldop957qpsKu5qzz3ao&branch=master)](https://travis-ci.com/dsjiffry/HotelSystem)
-
 # HotelSystem (Y02)
 
 The objective of the project was to design a Hotel Management System based on the Royal Kandyan
