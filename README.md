@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/dsjiffry/HotelSystem/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/dsjiffry/HotelSystem/actions?query=workflow%3A%22Java+CI+with+Maven%22)
+
 # HotelSystem (Y02)
 
 The objective of the project was to design a Hotel Management System based on the Royal Kandyan
