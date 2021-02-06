@@ -21,19 +21,19 @@ Some of the developed features were:
 
 * Login Page
   
-  ![Login Page](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Login%20Page.PNG?token=AJIMP7Q2VHTEEDT5SQPJQPS53EUQI)
+  ![Login Page](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Login%20Page.PNG)
   
 * Make Reservations
  
- ![Make Reservations](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Make%20Reservation.PNG?token=AJIMP7S33TOTJKGHMRZ2VSC53EUUC)
+ ![Make Reservations](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Make%20Reservation.PNG)
  
  * View Current Room status
  
- ![Room Status](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Room%20View.PNG?token=AJIMP7VJ2D5SSABBEJBABES53EUUG)
+ ![Room Status](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Room%20View.PNG)
  
 * Transfer Guest to different Room
  
- ![Transfer Guest](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Transfer%20Guest.PNG?token=AJIMP7TIZRLCHNYEKBMPLFK53EUUK)
+ ![Transfer Guest](https://raw.githubusercontent.com/dsjiffry/HotelSystem/master/Screenshots/Transfer%20Guest.PNG)
  
  
  
